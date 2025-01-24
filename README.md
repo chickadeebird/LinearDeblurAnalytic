@@ -1,4 +1,4 @@
-# LinearDeblurAnalytic
+# Linear Deblur Analytic
 
 This is a Pixinsight script for implementing different machine learning and analytic linear deblurring algorithms.
 
@@ -26,34 +26,23 @@ Select Linear data if you wish the algorithm to treat the data as linear, otherw
 
 ## Images
 
-This is a nonlinear image of a stack of images on the Iris nebula with an autoSTF applied (top left), the results from algorithm A (top right), algorithm B (bottom left), and algorithm C (bottom right).
+This is a linear RGB image stack with a blurring artifact at about 61 degrees, as detected by the script star detector algorithm. The image on the left is the original image and the image on the right is the deblurred image using the deconvolution algorithm with a length of 6 and 16 iterations.
 
-<img src="./figs/DenoiserSuite no mask on Iris.png" text='DenoiserSuite script' align=left />
-
-This is a linear image from the Leo triplet using algorithm B. It shows the improvement in detail preservation with a stretched lightness mask applied. Top left - original linear stacked image; top right - stretched lightness mask; bottom left - algorithm B with no mask; bottom right - algorithm B with lightness mask applied to preserve high signal details.
-
-<img src="./figs/DenoiserSuite algorithm B mask.png" text='DenoiserSuite algorithm B with and without mask' align=left />
+<img src="./figs/LiinearDeblurAnalytic deblurred stars.png" text='LinearDeblurAnalytic script' align=left />
 
 ## Script
 
-This is the script interface for the DenoiserSuite script.
+This is the script interface for the LinearDeblurAnalytic script.
 
-<img src="./figs/DenoiserSuite script.png" text='SyntheticStars script' align=left />
+<img src="./figs/LinearDeblurAnalytic script.png" text='LinearDeblurAnalytic script' align=left />
 
-This can be found here: ChickadeeScripts > SyntheticStars after installation.
+This can be found here: ChickadeeScripts > LinearDeblurAnalytic after installation.
 
 ## Manage repository location
 
 In order to automatically install and subsequently refresh script updates in Pixinsight, add the following URL to Resources > Updates > Manage repositories
 
-https://raw.githubusercontent.com/chickadeebird/DenoiserSuite/main/
+https://raw.githubusercontent.com/chickadeebird/LinearDeblurAnalytic/main/
 
-After this has been added to the repositories, Resources > Updates > Check for updates should place the new DenoiserSuite script in Scripts > ChickadeeScripts
+After this has been added to the repositories, Resources > Updates > Check for updates should place the new LinearDeblurAnalytic script in Scripts > ChickadeeScripts
 
-## Machine learning files location
-
-The Denoising Suite script calls an executable file that is a machine learning program trained for the denoising functions for the script. The executable can be downloaded via the following link:
-
-https://drive.google.com/file/d/1rXwK82pragUTp7axTCL6sYaObKHMgKcf/view?usp=sharing
-
-Place the zip file in a location on your computer and unzip the contents. Start the DenoiserSuite script in Pixinsight under the Scripts > ChickadeeScripts location. Click on the wrench at the bottom left of the DenoiserSuite dialog box and then move to the location where the executable files have been unzippped. The enables the DenoiserSuite script to find the executable in the correct location.
