@@ -12,11 +12,11 @@ The algorithms should all work both with and without a GPU, although GPU acceler
 
 # Erosion Algorithm
 
-This algorithm works relative quickly compared with the deconvolution algorithm and is better suited to sparser starfields.
+This algorithm works relatively quickly compared with the deconvolution algorithm and is better suited to sparser starfields.
 
 # Deconvolution Algorithm
 
-This algorithm uses the innate Deconvolution Richardson-Lucy algorithm.
+This algorithm uses the Pixinsight Deconvolution Richardson-Lucy algorithm.
 
 # Usage
 
