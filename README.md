@@ -2,7 +2,7 @@
 
 This is a Pixinsight script for implementing different analytic linear deblurring algorithms.
 
-This script attempts to deal with the problem of elongated stars, such as one might get with cable drag. It applies a PSF to stars detected with Pixinsight's Star Detector in the center of the image. The median rotation angle is calculated and the stars are removed from the image using StarNet2 and then rotated so that the elongated stars are parallel with the horizontal plane. An analytic algorithm (either erosion or deconvolution) is applied to the horizontal blurring with a number of prespecified iterations and a mask length. The stars are then rotated back and then replaced on the starless image.
+This script attempts to deal with the problem of elongated stars, such as one might get with cable drag. It determines a PSF on stars detected with Pixinsight's Star Detector in the center of the image. The median rotation angle is calculated and the stars are removed from the image using StarNet2 and then rotated so that the elongated stars are parallel with the horizontal plane. An analytic algorithm (either erosion or deconvolution) is applied to the horizontal blurring with a number of prespecified iterations and a mask length. The stars are then rotated back and then replaced on the starless image.
 
 For this set of algorithms, the background is not deblurred as the stars are isolated and deblurred separately from the background.
 
