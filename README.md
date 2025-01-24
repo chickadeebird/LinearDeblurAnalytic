@@ -26,7 +26,7 @@ Select Linear data if you wish the algorithm to treat the data as linear, otherw
 
 ## Images
 
-This is a linear RGB image stack with a blurring artifact at about 61 degrees, as detected by the script star detector algorithm. The image on the left is the original image and the image on the right is the deblurred image using the deconvolution algorithm with a length of 6 and 16 iterations.
+This is a linear RGB image stack with a blurring artifact at about 61 degrees, as detected by the script star detector algorithm. The image on the left is the original image and the image on the right is the deblurred image using the deconvolution algorithm with a length of 6 and employing 16 iterations.
 
 <img src="./figs/LinearDeblurAnalytic deblurred stars.png" text='LinearDeblurAnalytic script' align=left />
 
