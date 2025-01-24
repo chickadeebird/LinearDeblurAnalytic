@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+   <description>
+      <p>
+		First release of Linear Deblur Analytic Script from chickadeebird.
+      </p>
+      <p>
+      The scripts have been written by Chick Dee (alias chickadeebird).
+      Feedback can be provided on the PixInsight forums.
+      </p>
+   </description>
+   <platform os="all" arch="noarch" version="1.8.9:2.0.0">
+      <package fileName="LinearDeblurAnalyticv1.0.0beta.zip" sha1="0f70a185cf371a88e104427f416e06a113b27ce1" type="script" releaseDate="20250124">
+         <title>
+            Script for RGBAlign - RGB Align Script.
+         </title>
+         <description>
+            <p>
+               Script for deblurring stars that are elongated from processes such as cable drag. <br/>
+            </p>
+         </description>
+      </package>
+   </platform>
+</xri>
