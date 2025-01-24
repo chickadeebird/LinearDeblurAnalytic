@@ -12,7 +12,7 @@
    <platform os="all" arch="noarch" version="1.8.9:2.0.0">
       <package fileName="LinearDeblurAnalyticv1.0.0beta.zip" sha1="0f70a185cf371a88e104427f416e06a113b27ce1" type="script" releaseDate="20250124">
          <title>
-            Script for RGBAlign - RGB Align Script.
+            Script for LinearDeblurAnalytic - Linear Deblur Analytic Script.
          </title>
          <description>
             <p>
